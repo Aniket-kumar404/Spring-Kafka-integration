@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kafka.config.KafkaProducerService;
+import com.kafka.service.KafkaProducerService;
 
 @RestController
 public class KafkaController {
